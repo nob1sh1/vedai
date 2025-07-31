@@ -1,0 +1,18 @@
+# Core LLM and NLP libraries
+langchain>=0.1.0
+sentence-transformers>=2.2.0
+openai>=1.0.0
+gradio>=4.0.0
+
+# Text processing and parsing
+unstructured>=0.10.0
+pypdf>=4.0.0
+faiss-cpu>=1.7.0
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Additional utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0

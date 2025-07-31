@@ -1,0 +1,183 @@
+{
+  "analyses": [
+    {
+      "reference": "RV 1.1.1a",
+      "sanskrit": "अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम्",
+      "romanized": "aganaिmaीळे paुraोhaिtaṃ yajañasaya daेvamaृtavaिjama",
+      "translation": "I praise Agni, the priest, the divine minister of sacrifice",
+      "triples": [
+        {
+          "verb_root": "यज्",
+          "karaka": "अधिकरण",
+          "word": "अग्निमीळे",
+          "meaning": "",
+          "confidence": 0.4
+        },
+        {
+          "verb_root": "यज्",
+          "karaka": "कर्ता",
+          "word": "पुरोहितं",
+          "meaning": "",
+          "confidence": 0.0
+        },
+        {
+          "verb_root": "यज्",
+          "karaka": "कर्ता",
+          "word": "देवमृत्विजम्",
+          "meaning": "",
+          "confidence": 0.0
+        }
+      ],
+      "semantic_field": "general",
+      "entities_found": 0,
+      "confidence": 0.13333333333333333
+    },
+    {
+      "reference": "RV 1.1.1b",
+      "sanskrit": "होतारं रत्नधातमम्",
+      "romanized": "haोtaाraṃ ratanadhaाtamama",
+      "translation": "the invoker, most rich in treasure",
+      "triples": [
+        {
+          "verb_root": "धा",
+          "karaka": "कर्ता",
+          "word": "होतारं",
+          "meaning": "",
+          "confidence": 0.0
+        }
+      ],
+      "semantic_field": "general",
+      "entities_found": 0,
+      "confidence": 0.0
+    },
+    {
+      "reference": "RV 1.164.46a",
+      "sanskrit": "इन्द्रं मित्रं वरुणमग्निमाहुः",
+      "romanized": "inadaraṃ maिtaraṃ varaुṇamaganaिmaाhaुḥ",
+      "translation": "They call him Indra, Mitra, Varuna, Agni",
+      "triples": [
+        {
+          "verb_root": "इ",
+          "karaka": "कर्ता",
+          "word": "मित्रं",
+          "meaning": "",
+          "confidence": 0.0
+        },
+        {
+          "verb_root": "इ",
+          "karaka": "कर्ता",
+          "word": "वरुणमग्निमाहुः",
+          "meaning": "",
+          "confidence": 0.0
+        }
+      ],
+      "semantic_field": "general",
+      "entities_found": 0,
+      "confidence": 0.0
+    }
+  ],
+  "knowledge_graph": {
+    "entities": {
+      "अग्निमीळे": {
+        "verses": [
+          "RV 1.1.1a"
+        ],
+        "relations": [
+          "अधिकरण"
+        ],
+        "domain": "unknown"
+      },
+      "पुरोहितं": {
+        "verses": [
+          "RV 1.1.1a"
+        ],
+        "relations": [
+          "कर्ता"
+        ],
+        "domain": "unknown"
+      },
+      "देवमृत्विजम्": {
+        "verses": [
+          "RV 1.1.1a"
+        ],
+        "relations": [
+          "कर्ता"
+        ],
+        "domain": "unknown"
+      },
+      "होतारं": {
+        "verses": [
+          "RV 1.1.1b"
+        ],
+        "relations": [
+          "कर्ता"
+        ],
+        "domain": "unknown"
+      },
+      "मित्रं": {
+        "verses": [
+          "RV 1.164.46a"
+        ],
+        "relations": [
+          "कर्ता"
+        ],
+        "domain": "unknown"
+      },
+      "वरुणमग्निमाहुः": {
+        "verses": [
+          "RV 1.164.46a"
+        ],
+        "relations": [
+          "कर्ता"
+        ],
+        "domain": "unknown"
+      }
+    },
+    "relationships": [
+      {
+        "verb": "यज्",
+        "relation": "अधिकरण",
+        "entity": "अग्निमीळे",
+        "verse": "RV 1.1.1a",
+        "confidence": 0.4
+      },
+      {
+        "verb": "यज्",
+        "relation": "कर्ता",
+        "entity": "पुरोहितं",
+        "verse": "RV 1.1.1a",
+        "confidence": 0.0
+      },
+      {
+        "verb": "यज्",
+        "relation": "कर्ता",
+        "entity": "देवमृत्विजम्",
+        "verse": "RV 1.1.1a",
+        "confidence": 0.0
+      },
+      {
+        "verb": "धा",
+        "relation": "कर्ता",
+        "entity": "होतारं",
+        "verse": "RV 1.1.1b",
+        "confidence": 0.0
+      },
+      {
+        "verb": "इ",
+        "relation": "कर्ता",
+        "entity": "मित्रं",
+        "verse": "RV 1.164.46a",
+        "confidence": 0.0
+      },
+      {
+        "verb": "इ",
+        "relation": "कर्ता",
+        "entity": "वरुणमग्निमाहुः",
+        "verse": "RV 1.164.46a",
+        "confidence": 0.0
+      }
+    ],
+    "domains": {}
+  },
+  "vocabulary_size": 20
+}
